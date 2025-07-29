@@ -2,6 +2,8 @@
 
 Ever wonder what Zillow might look like with comments? It seems a [lot of people have](https://x.com/hankgreen/status/1479509887373643780?lang=en), so this is a little proof of concept for how that might work!
 
+![Screenshot of a Zillow listing with a comment box and two comments](screenshot.png)
+
 This repo consists of two parts:
 
 - The `extension` folder, which houses a Chrome extension to inject a comment box on Zillow listing pages
