@@ -4,7 +4,7 @@ Ever wonder what Zillow might look like with comments? It seems a [lot of people
 
 This repo consists of two parts:
 
-- The `extension` folder, which houses a Chrome extension to inject a comment box on any Zillow listing pages, and
+- The `extension` folder, which houses a Chrome extension to inject a comment box on Zillow listing pages
 - The `api` folder, which holds a very basic Laravel API to manage user authentication and comment storage
 
 If you would like to run this project locally, follow these steps after cloning this repo:
@@ -14,6 +14,7 @@ If you would like to run this project locally, follow these steps after cloning 
 3. In that same terminal, run `php artisan serve` which should bring up a local webserver at port :8000
 4. Finally, navigate to any Zillow listing in your Chrome browser, and you should see a comment box appear after a few seconds under the description of the property
 
-> Note: I don't intend on deploying this to a public service, I feel like I'd get a cease-and-desist letter faster than I can blink lol
+> [!NOTE]
+> I don't intend on deploying this to a public service, I feel like I'd get a cease-and-desist letter faster than I can blink lol
 
-Have fun! Let me know if you'd like to see any particular deep-dives into how this basic extension works, or any potential features you'd like to see added to it.
+Have fun! :blush: Let me know if you'd like to see any particular deep-dives into how this basic extension works, or any potential features you'd like to see added to it.
