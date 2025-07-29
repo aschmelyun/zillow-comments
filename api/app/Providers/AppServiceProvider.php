@@ -20,6 +20,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        URL::forceHttps();
+        // Uncomment the following line if you use ngrok or another tunnelling service
+        // while serving your application from a local environment.
+        // URL::forceHttps();
     }
 }

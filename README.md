@@ -19,6 +19,6 @@ If you would like to run this project locally, follow these steps after cloning 
 6. Navigate to any Zillow listing in your Chrome browser, and you should see a comment box appear after a few seconds under the description of the property
 
 > [!NOTE]
-> I don't intend on deploying this to a public service, I feel like I'd get a cease-and-desist letter faster than I can blink lol
+> I don't intend on deploying this as a public service, I feel like I'd get a cease-and-desist letter faster than I can blink lol
 
 Have fun! :blush: Let me know if you'd like to see any particular deep-dives into how this basic extension works, or any potential features you'd like to see added to it.
