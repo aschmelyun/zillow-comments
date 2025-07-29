@@ -13,9 +13,10 @@ If you would like to run this project locally, follow these steps after cloning 
 
 1. Install an unpacked extension in Chrome ([guide here](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)) and point it at the extension folder of this project
 2. In a terminal, navigate to the api directory of this project and run `composer install`
-3. In that same terminal, run `cp .env.example .env && php artisan migrate`
-4. Finally, run `php artisan serve` which should bring up a local webserver at port :8000
-5. Navigate to any Zillow listing in your Chrome browser, and you should see a comment box appear after a few seconds under the description of the property
+3. In that same directory, run `cp .env.example .env && php artisan migrate`
+4. Then build the assets with `npm install && npm run build`
+5. Finally, run `php artisan serve` which should bring up a local webserver at port :8000
+6. Navigate to any Zillow listing in your Chrome browser, and you should see a comment box appear after a few seconds under the description of the property
 
 > [!NOTE]
 > I don't intend on deploying this to a public service, I feel like I'd get a cease-and-desist letter faster than I can blink lol
