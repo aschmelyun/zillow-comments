@@ -1,0 +1,240 @@
+.comments-form {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.comments-wrapper .sep {
+    margin: 32px 0 26px;
+    background-color: rgb(209, 209, 213);
+    width: auto;
+    height: 1px;
+}
+
+h2.comments-title {
+    color: rgb(42, 42, 51);
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0px 0px 16px;
+}
+
+.comments-content {
+    margin-bottom: 32px;
+}
+
+#comment-input {
+    width: 100%;
+    min-height: 80px;
+    padding: 12px;
+    border: 1px solid #d4d4d4;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.comments-button {
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: inline-flex
+;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 4px;
+    user-select: none;
+    padding: 9px 16px;
+    margin: 0px 0px 16px;
+    appearance: none;
+    transition-property: background-color, border-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    pointer-events: auto;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    position: relative;
+    color: rgb(42, 42, 51);
+    -webkit-font-smoothing: antialiased;
+    text-transform: none;
+    font-family: "Open Sans", "Adjusted Arial", Tahoma, Geneva, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    height: auto;
+    background-color: rgb(0, 106, 255);
+    border-color: rgb(0, 106, 255);
+    color: rgb(255, 255, 255);
+}
+
+.comments-button:hover:not(:disabled) {
+    background-color: rgb(13, 69, 153);
+    border-color: rgb(13, 69, 153);
+    color: rgb(255, 255, 255);
+}
+
+.comments-button:active:not(:disabled) {
+    background-color: rgb(0, 23, 81);
+    border-color: rgb(0, 23, 81);
+    color: rgb(255, 255, 255);
+}
+
+.comments-button:disabled {
+    opacity: 0.75;
+}
+
+#comment-input:focus {
+    outline: none;
+    border-color: #006aff;
+    box-shadow: 0 0 0 2px rgba(0, 106, 255, 0.1);
+}
+
+#submit-comment {
+    width: auto;
+    margin: 0.5rem 0 0;
+}
+
+.comment {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.comment:last-child {
+    border-bottom: none;
+}
+
+.comment-text {
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.comment-time {
+    color: #666;
+    font-size: 12px;
+}
+
+.loading,
+.no-comments {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.error-messages {
+    background-color: #ffeaa7;
+    border: 1px solid #fdcb6e;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+}
+
+.error-item {
+    color: #d63031;
+    font-size: 14px;
+    margin: 2px 0;
+}
+
+.rating-section {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.rating-section label {
+    font-size: 14px;
+    color: #333;
+}
+
+.rating-section select {
+    padding: 4px 8px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.comment-author {
+    font-weight: 600;
+    color: #333;
+}
+
+.comment-rating {
+    color: #f39c12;
+}
+
+.comment-time {
+    color: #666;
+    margin-left: auto;
+}
+
+.token-input-section {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    border: 1px solid #e9ecef;
+    margin-bottom: 20px;
+}
+
+.token-input-section p {
+    margin-bottom: 12px;
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.token-input-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+#token-input {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#token-input:focus {
+    outline: none;
+    border-color: #006aff;
+    box-shadow: 0 0 0 2px rgba(0, 106, 255, 0.1);
+}
+
+#save-token {
+    width: auto;
+    margin: 0;
+    padding: 8px 16px;
+}
+
+.token-help {
+    margin: 8px 0 0 0;
+    font-size: 12px;
+}
+
+.token-help a {
+    color: #006aff;
+    text-decoration: none;
+}
+
+.token-help a:hover {
+    text-decoration: underline;
+}

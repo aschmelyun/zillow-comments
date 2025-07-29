@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Zillow with Comments",
+  "version": "1.0",
+  "description": "Add comment section to Zillow listing pages",
+  "permissions": ["activeTab", "storage"],
+  "host_permissions": [
+    "https://www.zillow.com/*",
+    "http://localhost:8000/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.zillow.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
