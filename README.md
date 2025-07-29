@@ -12,9 +12,10 @@ This repo consists of two parts:
 If you would like to run this project locally, follow these steps after cloning this repo:
 
 1. Install an unpacked extension in Chrome ([guide here](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)) and point it at the extension folder of this project
-2. In a terminal, navigate to the api directory of this project and run `composer install && php artisan migrate`
-3. In that same terminal, run `php artisan serve` which should bring up a local webserver at port :8000
-4. Finally, navigate to any Zillow listing in your Chrome browser, and you should see a comment box appear after a few seconds under the description of the property
+2. In a terminal, navigate to the api directory of this project and run `composer install`
+3. In that same terminal, run `cp .env.example .env && php artisan migrate`
+4. Finally, run `php artisan serve` which should bring up a local webserver at port :8000
+5. Navigate to any Zillow listing in your Chrome browser, and you should see a comment box appear after a few seconds under the description of the property
 
 > [!NOTE]
 > I don't intend on deploying this to a public service, I feel like I'd get a cease-and-desist letter faster than I can blink lol
